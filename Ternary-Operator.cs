@@ -17,6 +17,10 @@ namespace ternaryoperator
 
             //Ternary Operator
             Console.WriteLine(isAdmin() ? "Yes":"No");
+
+            int number = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(number % 2 == 0 ? "Even":"Odd");
         }
 
         public static bool isAdmin()
